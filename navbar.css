@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+img#icon{
+    border-radius: 20%;
+    background-color: aliceblue;
+}
+
+nav{
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0.8631827731092436) 90%, rgba(160,15,193,0.8939950980392157) 100%);
+    position: fixed;
+}
+
+.fas{
+    color: rgb(238, 233, 226);
+    margin-left: 50px;
+}

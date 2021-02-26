@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(216, 216, 216);
+}
+#highlight{
+    
+    margin-top: 15px;
+}
+#highlight .fas{
+   color: black;
+}
+
+.slide{
+    height: 100vh;
+    width: 70vw;
+    margin: auto;
+}
+button#btnInslide{
+    position: absolute;
+    right: 1rem;
+    top: 30rem;
+    border: none;
+    background: rgb(61,223,59);
+    background: linear-gradient(0deg, rgba(61,223,59,1) 22%, rgba(144,214,143,1) 50%, rgba(61,223,59,1) 79%);
+    height: 40px;
+    width: 200px;
+    border-radius:5%;
+    box-shadow: 0 4px 8px 0 rgba(189, 187, 187, 0.2), 0 6px 20px 0 rgba(252, 251, 251, 0.19);
+    text-align: center;
+}
+i.fa-cart-plus{
+    margin: 0;
+}
+.caards{
+    display:flex ;
+    justify-content: space-evenly;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+a.btn{
+    width: 30px;
+    height: 30px;
+    background: rgb(61,223,59);
+    background: linear-gradient(0deg, rgba(61,223,59,1) 22%, rgba(144,214,143,1) 50%, rgba(61,223,59,1) 79%);
+    border-radius:5%;
+    box-shadow: 0 4px 8px 0 rgba(189, 187, 187, 0.2), 0 6px 20px 0 rgba(252, 251, 251, 0.19);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.payment{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+p.price{
+    font-size: 15px;
+    color: rgb(54, 53, 53);
+    font-weight:bold ;
+}
+.vl {
+    border-left: 1px solid rgb(72, 78, 72);
+    height: 40px;
+    position: absolute;
+    right: 400px;
+  }
+  .bothCircle{
+    width: 40px;
+    height: 40px;
+    margin-left: 400px;
+  }
+  .outer-circle{
+      position: relative;
+    width: 30px;
+    height: 30px;
+      background: rgb(52,0,44);
+    background: linear-gradient(338deg, rgba(52,0,44,1) 67%, rgba(223,59,172,1) 100%);
+    border-radius: 50%;
+  }
+  .inner-circle{
+      height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    z-index: 10;
+    background-color: rgb(216, 216, 216);
+    margin: 0;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+.lilThing{
+    display: flex;
+    justify-content: space-between;
+}
+.payment2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin:30px;
+}
+div.lilThing p{
+    font-size: 15px;
+}
+
+
